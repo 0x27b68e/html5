@@ -1,0 +1,18 @@
+/* comment */
+p {
+	color:green;
+	font-family:Arial;
+	font-weight: 800;
+	font-size: 30px;
+	font-style: normal;
+	background-color: aqua;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+h1 {
+	border-style: groove;
+	border-width: 5px;
+	border-block-start-color: aquamarine;
+}
