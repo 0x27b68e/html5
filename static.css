@@ -1,7 +1,11 @@
+h1 {
+	color: brown;
+}
+
 .class-test {
-	color: aquamarine;
+	color:blue
 }
 
 #id-test {
-	color: chartreuse;
+	color: darkgreen;
 }
