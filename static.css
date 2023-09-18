@@ -12,6 +12,7 @@ p {
 	padding-right: 20px;
 }
 h1 {
+	color: aqua;
 	border-style: groove;
 	border-width: 5px;
 	border-block-start-color: aquamarine;
