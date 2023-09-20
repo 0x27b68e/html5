@@ -1,11 +1,11 @@
+:root {
+	--test-color: violet;
+}
+
 h1 {
-	color: brown;
+	--my-color: green;
+	color: var(--my-color);
 }
-
-.class-test {
-	color:blue
-}
-
-#id-test {
-	color: darkgreen;
+h2 {
+	color: var(--test-color);
 }
