@@ -10,19 +10,17 @@
 			margin: 0px;
 		}
 		.header {
-			height: 100px;
+			height: 100vh;
 			width: 100%;
-			background-color:darkslategray;
-			padding: 20px;
-			box-sizing: border-box;
-			border: 10px dashed #ccc;
-			/* content-box: đổ từ content*/
-			/* border-box: đổ từ border */
-			/* padding-box: đổ từ padding */
-			background-clip :padding-box;
+			/* background-image: url(https://i.pinimg.com/736x/9d/60/22/9d6022f153768025ad37f51d89d29ece.jpg); */
+			/* chiều ngang 100px, dọc auto */
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-image: linear-gradient(0, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), 
+			url(https://i.pinimg.com/736x/9d/60/22/9d6022f153768025ad37f51d89d29ece.jpg);
 		}
 	</style>
 	<body>
-		<div class="header">Box 1</div>
+		<div class="header"></div>
 	</body>
 </html>
