@@ -9,20 +9,20 @@
 		html, body {
 			margin: 0px;
 		}
-		.box {
-			width: 100px;
+		.header {
 			height: 100px;
-			color:azure;
-			background-color: aqua;
-			padding: 10px;
-			border: 2px solid #333;
-			/* border + padding + content = 100px 
-			   (2 * 2px) + (2*10px) + 76px(tự động tính toán) = 100px
-			*/
+			width: 100%;
+			background-color:darkslategray;
+			padding: 20px;
 			box-sizing: border-box;
+			border: 10px dashed #ccc;
+			/* content-box: đổ từ content*/
+			/* border-box: đổ từ border */
+			/* padding-box: đổ từ padding */
+			background-clip :padding-box;
 		}
 	</style>
 	<body>
-		<div class="box">Box 1</div>
+		<div class="header">Box 1</div>
 	</body>
 </html>
