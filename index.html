@@ -6,26 +6,31 @@
 		<link rel="stylesheet" href="./static.css">
 	</head>
 	<style>
-		.box {
-			width: calc(100px + 70px);
-			height: 100px;
-			/* background: rgb(0, 0, 0); */
-			/* background: rgb(255, 255, 255); */
-			background: rgb(84, 17, 17);
+		/* h1:hover {
+			color: aqua;
+		} */
+		h1:active {
+			color:brown
 		}
-
-		.box::after {
-
-			content: "Testing";
+		li:first-child{
+			color: blue;
 		}
-
-		a::after {
-			content: attr(href);
+		li:last-child{
+			color:darkred;
+			background: darkseagreen;
 		}
 	</style>
 	<body>
 		<div class="box"></div>
+		<h1>Pseudo class</h1>
 
-		<a href="https://www.google.com/">Search </a>
+		<ul>
+			<li>AAAA</li>
+			<li>AAAA</li>
+			<li>AAAA</li>
+			<li>AAAA</li>
+			<li>AAAA</li>
+			<li>BBBB</li>
+		</ul>
 	</body>
 </html>
