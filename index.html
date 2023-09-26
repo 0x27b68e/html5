@@ -12,17 +12,32 @@
 		h1:active {
 			color:brown
 		}
-		li:first-child{
-			color: blue;
+		.box::before{
+			content: "";
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-color: aquamarine;
 		}
-		li:last-child{
-			color:darkred;
-			background: darkseagreen;
+		h1::first-letter{
+			font-size: 50px;
+		}
+
+		h1::first-line{
+			color: aquamarine;
+		}
+		h1::selection{
+			background-color: blueviolet;
 		}
 	</style>
 	<body>
-		<div class="box"></div>
-		<h1>Pseudo class</h1>
+		<div class="box">
+			<h1>Pseudo class<br/>
+			AAAAAAA
+			</h1>
+
+
+		</div>
 
 		<ul>
 			<li>AAAA</li>
