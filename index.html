@@ -46,6 +46,25 @@
 			min-width: 90px;
 		}
 
+		.column-layout {
+			margin-top: 36px;
+			padding: 12px 0;
+			background-color: blueviolet;
+			display: flex;
+		}
+		.column-item {
+			padding: 0 16px;
+		}
+		.main-column {
+			flex: 3;
+		}
+		.sidebar-one {
+			flex: 1;
+		}
+		.sidebar-two {
+			flex: 1;
+		}
+
 	</style>
 	<body>
 		<div class="nav">
@@ -72,6 +91,30 @@
 					<input type="text" class="form_input">
 				</div>
 			</form>
+		</div>
+		<!-- Column layout -->
+		<div class="column-layout">
+			<div class="column-item sidebar-one">
+				<h2>Sidebar one</h2>
+				<p>Thủ quân Son Heung-min nằm trong danh sách 24 cầu thủ Hàn Quốc chuẩn bị cho trận giao hữu với Việt Nam.
+				Tiền đạo sinh năm 1992 đang làm đội trưởng Tottenham, và được xem là cầu thủ bóng đá châu Á hay bậc nhất lịch sử.</p>
+			</div>
+			<div class="column-item main-column">
+				<h2>Main column</h2>
+				<p>"Khi tôi còn là cầu thủ ở Barca, tôi là một trong những cầu thủ ít va chạm nhất, 
+					nhưng rất nhiều lần nhận thẻ vàng chỉ bởi tôi thích nói, thích phàn nàn. 
+					Bây giờ làm HLV, tôi vẫn vậy. Tôi sẽ lên tiếng nếu không thích hoặc cho 
+					rằng điều gì đó bất công. Tôi cần kiểm soát điều đó", tờ Guardian (Anh) dẫn lời Guardiola.</p>
+			</div>
+			<div class="column-item sidebar-two">
+				<h2>Sidebar two</h2>
+				<p>Hôm 30/9, Guardiola phải ngồi trên khán đài sân Molinuex, 
+					khi Man City làm khách của Wolves ở vòng 7 Ngoại hạng Anh. 
+					Nguyên do là ông đã lĩnh đủ ba thẻ vàng kể từ đầu mùa. 
+					Đây là mốc phạt mới mà Liên đoàn Bóng đá Anh (FA) dành cho các HLV, 
+					với mục đích bảo vệ trọng tài. Mùa trước, 
+					các HLV chỉ bị treo quyền chỉ đạo khi nhận bốn thẻ vàng.</p>
+			</div>
 		</div>
 	</body>
 </html>
