@@ -79,7 +79,27 @@
 			margin-top: 16px;
 			flex-basis: 30%;
 		}
-
+		.wrap-layout {
+			background-color: aliceblue;
+			margin-top: 36px;
+			padding: 12px 0 36px 0;
+			display: flex;
+			justify-content: space-around;
+			/* flex-wrap: nowrap; */
+			/* flex-wrap: wrap-reverse; */
+			flex-wrap: wrap;
+		}
+		.wrap-layout__item {
+			width: 148px;
+			height: 90;
+			color: aliceblue;
+			text-align: center;
+			margin-top: 20px;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 90px;
+			background-color: blueviolet;
+		}
 	</style>
 	<body>
 		<div class="nav">
@@ -160,6 +180,13 @@
 					với mục đích bảo vệ trọng tài. Mùa trước, 
 					các HLV chỉ bị treo quyền chỉ đạo khi nhận bốn thẻ vàng.</p>
 			</div>
+		</div>
+		<div class="wrap-layout">
+			<div class="wrap-layout__item">1</div>
+			<div class="wrap-layout__item">2</div>
+			<div class="wrap-layout__item">3</div>
+			<div class="wrap-layout__item">4</div>
+			<div class="wrap-layout__item">5</div>
 		</div>
 	</body>
 </html>
