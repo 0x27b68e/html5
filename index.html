@@ -11,7 +11,9 @@
 			height: 100px;
 			/* background: rgb(0, 0, 0); */
 			/* background: rgb(255, 255, 255); */
+			/* Màu đặt */
 			background: rgb(84, 17, 17);
+			/* rbga: Màu trong suốt */
 		}
 
 		.box::after {
@@ -21,11 +23,14 @@
 
 		a::after {
 			content: attr(href);
+			color: aqua;
+			font-size: 20px;
+			font-weight: 500;
 		}
 	</style>
 	<body>
 		<div class="box"></div>
 
-		<a href="https://www.google.com/">Search </a>
+		<a href="https://www.google.com/">Search @ </a>
 	</body>
 </html>
