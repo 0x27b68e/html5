@@ -6,15 +6,20 @@
 		<link rel="stylesheet" href="./static.css">
 	</head>
 	<style>
+		/* https://www.youtube.com/watch?v=T132w-vrgi8&list=WL&index=3&t=606s */
 		div {
-			width: 100px;
+			width: 300px;
 			height: 100px;
-			background: red;
+			background: rgb(232, 100, 32);
 			text-align: center;
 			line-height: 100px;
 			border: 1px dashed black;
 			border-left: none;
-			border-radius: 10px;
+			/* Góc trái phía dưới sẽ ko bị radius */
+			border-radius: 10px 10px 10px 0px;
+			color: azure;
+			font-size: 20px;
+			font-weight: 600;
 		}
 	</style>
 	<body>
