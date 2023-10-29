@@ -19,7 +19,6 @@
 		.cha {
 			width: 100%;
 			border: 1px solid black;
-			overflow: auto;
 		}
 		.con1 {
 			width: 50%;
@@ -27,10 +26,16 @@
 			background-color: aqua;
 			float: left;
 		}
+		.clearFix::after {
+			content: "";
+			display: block;
+			/* Remove float, de khoi sau ko bi anh huong. */
+			clear: both;
+		}
 		
 	</style>
 	<body>
-		<div class="cha">
+		<div class="cha clearFix">
 			<div class="con1"></div>
 		</div>
 	</body>
