@@ -15,23 +15,27 @@
 		position: static, relative, alsolute, fixed
 		top, left, right, bottom
 		*/
+		body {
+			border: 2px solid black;
+		}
 		.container {
 			width: 500px;
 			height: 500px;
-			background-color: chocolate;
+			background-color: red;
 			position: absolute;
-			top: 100px;
-			left: 300px;
+			/* Top, left chỉ ăn với loại static */
+			bottom: 100px;
+			right: 300px;
 		}
 		.cha {
 			width: 300px;
 			height: 300px;
-			background-color:bisque;
+			background-color:green;
 		}
 		.con {
 			width: 100px;
 			height: 100px;
-			background-color:burlywood;
+			background-color:blue;
 		}
 	</style>
 	<body>
