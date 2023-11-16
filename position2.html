@@ -10,6 +10,8 @@
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
+			position: static;
+			/* Mặc định thì trình duyệt có position = alsolute */
 		}
 		/* 
 		position: static, relative, alsolute, fixed
@@ -19,7 +21,8 @@
 			width: 500px;
 			height: 500px;
 			background-color: chocolate;
-			position: relative;
+			position: absolute;
+			/* Thay đổi thằng cha thì thằng con thay đổi theo, ko cần css lại cho thằng con*/
 			top: 100px;
 			left: 300px;
 		}
