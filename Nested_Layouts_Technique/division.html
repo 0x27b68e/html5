@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image {
+        width: 100%;
+        object-fit: contain;
+        display: block;
+      }
+      .search-bar {
+        font-size: 20px;
+        display: block;
+      }
+      .ai {
+        display: block;
+      }
+      .video-author {
+        display: inline-block;
+      }
+      .video-preview {
+        display: inline-block;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border: 1px solid black;
+        width: 250px;
+        vertical-align: top;
+        margin-right: 15px;
+        padding: 4px;
+      }
+      .video-title {
+        margin-top: 0;
+      }
+
+      .channel-picture {
+        display: inline-block;
+        width: 45px;
+        vertical-align: top;
+      }
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+      .avatar {
+        width: 40px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Seach..." />
+    <div class="video-preview">
+      <div>
+        <img class="image" src="./1.webp" alt="" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="avatar" src="./avatar.jpeg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar
+            Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div>
+        <img class="image" src="./quan4.jpg" alt="" />
+      </div>
+      <div>
+        <p class="video-title">
+          Talking Tech <strong class="ai">and AI with</strong> Google CEO Sundar
+          Pichai!
+        </p>
+        <p class="video-author">Marques Brownlee</p>
+      </div>
+      </div>
+  </body>
+</html>
