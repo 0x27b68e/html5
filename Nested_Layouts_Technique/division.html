@@ -49,18 +49,9 @@
         margin-bottom: 12px;
       }
 
-      .channel-picture {
-        display: inline-block;
-        width: 45px;
-        vertical-align: top;
-      }
       .channel-picture img{
         border-radius: 50%;
         margin-right: 15px;
-      }
-      .video-info {
-        display: inline-block;
-        width: 200px;
       }
       .avatar {
         width: 40px;
@@ -84,7 +75,10 @@
       <div class="thumbnail-row">
         <img class="image" src="./1.webp" alt="" />
       </div>
-      <div>
+      <div style="
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      ">
         <div class="channel-picture">
           <img class="avatar" src="./avatar.jpeg" alt="">
         </div>
@@ -99,15 +93,24 @@
       </div>
     </div>
     <div class="video-preview">
-      <div>
+      <div class="thumbnail-row">
         <img class="image" src="./quan4.jpg" alt="" />
       </div>
-      <div>
-        <p class="video-title">
-          Talking Tech <strong class="ai">and AI with</strong> Google CEO Sundar
-          Pichai!
-        </p>
-        <p class="video-author">Marques Brownlee</p>
+      <div style="
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    ">
+        <div class="channel-picture">
+          <img class="avatar" src="./avatar2.jpeg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss MaterialUI and Google Cloud Client
+  9jaCoder
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+        </div>
       </div>
       </div>
   </body>
