@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="
+    padding-bottom: 1000px;
+    ">
     <div style="
         display: grid;
         grid-template-columns: 100px 100px;
@@ -56,6 +58,8 @@
         margin-top: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
     ">
         <div style="background-color: lightblue;">div1</div>
         <div style="background-color:burlywood;">1fr
@@ -63,6 +67,13 @@
         </div>
         <div style="background-color:lightgreen;">1fr
         </div>
+
+        <div style="background-color:burlywood;">1fr
+            <p>text</p>
+        </div>
+        <div style="background-color:lightgreen;">1fr
+        </div>
+        <div style="background-color: lightblue;">div1</div>
     </div>
 </body>
 </html>
