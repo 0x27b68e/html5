@@ -44,6 +44,7 @@
   .thumbnail-row {
     margin-bottom: 12px;
     position: relative;
+
   }
   .video-stats {
     font-size: 12px;
@@ -56,9 +57,13 @@
     row-gap: 12px;
   }
   .video-time {
-    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: lightseagreen;
     color: white;
     right: 10px;
     bottom: 10px;
     position: absolute;
+    padding: 4px;
+    border-radius: 2px;
   }
