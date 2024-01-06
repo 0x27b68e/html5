@@ -18,7 +18,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .channel-picture {
@@ -35,14 +35,14 @@
     width: 200px;
   }
   .avatar {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
   .channel-picture.avatar {
     border-radius: 50%;
   }
   .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 
   }
