@@ -16,36 +16,36 @@
     <title>Youtube</title>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
-          <img class="hamburger" src="./images/hamburger-menu.svg" alt="">
-          <img class="youtube-logo" src="./images/youtube-logo.svg" alt="">
-      </div>
-      <div class="center-section">
-        <input class="search-bar" type="text" placeholder="Search" />
-        <button class="search-button">
-          <img class="search-icon" src="./images/search.svg" alt="">
-          <div class="tool-tip">Search</div>
-        </button>
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="./images/voice-search-icon.svg" alt="">
-          <div class="tool-tip">Search with your voice</div>
-        </button>
-      </div>
-      <div class="right-section">
-        <div class="upload-icon-container">
-          <img class="upload-icon" src="./images/upload.svg" alt="">
-          <div class="tool-tip">Create</div>
-        </div>
-        <img class="youtube-app-icon" src="./images/youtube-apps.svg" alt="">
-        <div class="notifications-container">
-          <img class="notifications-icon" src="./images/notifications.svg" alt="">
-          <div class="notifications-count">3</div>
-        </div>
-        <img class="my-channel-icon" src="./images/my-channel.jpeg" alt="">
-      </div>
+        <img class="hamburger" src="./images/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="./images/youtube-logo.svg" alt="">
     </div>
-    <div class="sidebar">
+    <div class="center-section">
+      <input class="search-bar" type="text" placeholder="Search" />
+      <button class="search-button">
+        <img class="search-icon" src="./images/search.svg" alt="">
+        <div class="tool-tip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="./images/voice-search-icon.svg" alt="">
+        <div class="tool-tip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="./images/upload.svg" alt="">
+        <div class="tool-tip">Create</div>
+      </div>
+      <img class="youtube-app-icon" src="./images/youtube-apps.svg" alt="">
+      <div class="notifications-container">
+        <img class="notifications-icon" src="./images/notifications.svg" alt="">
+        <div class="notifications-count">3</div>
+      </div>
+      <img class="my-channel-icon" src="./images/my-channel.jpeg" alt="">
+    </div>
+    </header>
+    <nav class="sidebar">
       <div class="sidebar-link">
           <img src="./images/home.svg" alt="">
           <div>Home</div>
@@ -70,114 +70,116 @@
         <img src="./images/library.svg" alt="">
         <div>Library</div>
       </div>
-    </div>
-    <div class="video-grid">
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../images/1.webp" alt="" />
-          <div class="video-time">14:20</div>
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar.jpeg" alt="" />
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../images/1.webp" alt="" />
+            <div class="video-time">14:20</div>
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">3.4M views &#183; 6 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../iamges/quan4.jpg" alt="" />
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar2.jpeg" alt="" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
-              MaterialUI and Google Cloud Client 9jaCoder
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../images/1.webp" alt="" />
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar.jpeg" alt="" />
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../iamges/quan4.jpg" alt="" />
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">3.4M views &#183; 6 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../iamges/quan4.jpg" alt="" />
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar2.jpeg" alt="" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
-              MaterialUI and Google Cloud Client 9jaCoder
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar2.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
+                MaterialUI and Google Cloud Client 9jaCoder
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../images/1.webp" alt="" />
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar.jpeg" alt="" />
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../images/1.webp" alt="" />
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">3.4M views &#183; 6 months ago</p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="image" src="../iamges/quan4.jpg" alt="" />
-        </div>
-        <div>
-          <div class="channel-picture">
-            <img class="avatar" src="../images/avatar2.jpeg" alt="" />
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
-              MaterialUI and Google Cloud Client 9jaCoder
-            </p>
-            <p class="video-author">Marques Brownlee</p>
-            <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../iamges/quan4.jpg" alt="" />
+          </div>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar2.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
+                MaterialUI and Google Cloud Client 9jaCoder
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../images/1.webp" alt="" />
+          </div>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="image" src="../iamges/quan4.jpg" alt="" />
+          </div>
+          <div>
+            <div class="channel-picture">
+              <img class="avatar" src="../images/avatar2.jpeg" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Jumia Ecommerce Clone built with NextJS Firebase Tailwindcss
+                MaterialUI and Google Cloud Client 9jaCoder
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">5,7 N views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
